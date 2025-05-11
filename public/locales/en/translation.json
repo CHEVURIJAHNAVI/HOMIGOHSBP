@@ -1,0 +1,160 @@
+{
+  "home": "Home",
+  "about": "About",
+  "register": "Register",
+  "login": "Login",
+  "customer": "Customer",
+  "serviceProvider": "Service Provider",
+  "admin": "Admin",
+  "contact": "Contact",
+  "language": "Language",
+   "headerBannerAlt": "Welcome Banner",
+  "welcomeMessage": "Welcome to Our HomeServices Booking Platform",
+  "homeDescription": "Your one-stop platform to manage, host, and book home services effortlessly.",
+  "ourStoryTitle": "Our Story",
+  "ourStoryDescription": "Born out of the need for reliable, convenient home service solutions, our platform bridges the gap between skilled professionals and customers. We strive to empower households with access to quality services while supporting service providers with the tools they need to grow.",
+  "keyFeaturesTitle": "Key Features",
+  "secureLogins": "Secure Logins",
+  "easyServiceBooking": "Easy Service Booking",
+  "dashboardAnalytics": "Dashboard Analytics",
+  "realTimeTracking": "Real-time Tracking",
+  "customerSupport": "24/7 Customer Support",
+  "multiplePaymentOptions": "Multiple Payment Options",
+  "invoiceHistoryManagement": "Invoice & History Management",
+  "verifiedProfessionals": "Verified Professionals",
+  "reviewsTitle": "What Our Users Say",
+  "customerName": "A Customer",
+  "customerQuote": "\"Super easy to book services!\"",
+  "eventManagerName": "An Event Manager",
+  "eventManagerQuote": "\"Managing bookings has never been simpler.\"",
+  "workingMomName": "A Working Mom",
+  "workingMomQuote": "\"Reliable and quick services every time.\"",
+  "freelancerName": "A Freelancer",
+  "freelancerQuote": "\"Love the dashboard analytics feature!\"",
+  "seniorCitizenName": "A Senior Citizen",
+  "seniorCitizenQuote": "\"Great support and very user-friendly.\"",
+  "startupOwnerName": "A Startup Owner",
+  "startupOwnerQuote": "\"Helped streamline office maintenance.\"",
+  "tenantName": "A Tenant",
+  "tenantQuote": "\"Affordable and verified professionals.\"",
+  "propertyManagerName": "A Property Manager",
+  "propertyManagerQuote": "\"One platform for all property needs.\"",
+  "quickLinks": "Quick Links",
+  "aboutUs": "About Us",
+  "contactUs": "Contact Us",
+  "termsConditions": "Terms & Conditions",
+  "privacyPolicy": "Privacy Policy",
+  "followUs": "Follow Us",
+  "about1": {
+    "title": "About HomiGo",
+    "description": "Welcome to HomiGo! We're transforming the way you access reliable home services by connecting you with trusted professionals at your fingertips.",
+    "story": {
+      "title": "Our Story",
+      "description": "HomiGo was born out of a common challenge — the difficulty of finding skilled, dependable home service providers. From electricians and plumbers to deep cleaners and handymen, we set out to build a platform that makes booking home services simple, transparent, and trustworthy."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "At HomiGo, our mission is to empower households by providing seamless access to high-quality home services. We focus on safety, convenience, and satisfaction—ensuring you get professional help when and where you need it most."
+    },
+    "whyChooseUs": {
+      "title": "Why Choose HomiGo?",
+      "points": {
+        "verifiedProfessionals": "Verified Professionals: All service providers are background-checked and verified.",
+        "instantBooking": "Instant Booking: Book services with a click—anytime, anywhere.",
+        "customerSupport": "24/7 Customer Support: We’re here to help you at all hours.",
+        "transparentPricing": "Transparent Pricing: No hidden charges, just fair rates.",
+        "realTimeUpdates": "Real-Time Updates: Stay informed with appointment reminders and tracking."
+      }
+    }
+  },
+  "team": {
+    "title": "Meet Our Team",
+    "members": {
+      "jahnavi": {
+        "name": "CHEVURI JAHNAVI",
+        "role": "Team Lead",
+        "qualification": "ID:2300030131",
+        "description": "Ananya is the driving force behind HomiGo, committed to reshaping the home service industry through technology and user-first design."
+      },
+      "karthik": {
+        "name": "Karthikeya",
+        "role": "Team Member",
+        "qualification": "ID:2300032330",
+        "description": "Karthik leads the development team to ensure a robust, secure, and scalable platform experience for HomiGo users."
+      },
+      "shravya": {
+        "name": "Ramya",
+        "role": "Team Member",
+        "qualification": "ID No: 2300030326",
+        "description": "With a focus on user satisfaction, Shravya ensures that every HomiGo customer feels heard and supported."
+      }
+    }
+  },
+  "latestNews": {
+    "title": "Latest News",
+    "newsItems": {
+      "expansion": {
+        "title": "HomiGo Expands to Tier-2 Cities",
+        "description": "We’re now available in more cities, making professional home services accessible across India.",
+        "linkText": "Read More"
+      },
+      "newProfessionals": {
+        "title": "More Skilled Experts Onboard",
+        "description": "HomiGo has added over 500 new service professionals across different verticals this quarter.",
+        "linkText": "Read More"
+      },
+      "greenServices": {
+        "title": "Eco-Friendly Cleaning Launched",
+        "description": "We’ve introduced green cleaning services that are safe for kids, pets, and the planet.",
+        "linkText": "Read More"
+      }
+    }
+  },
+  "footer": {
+    "quickLinks": {
+      "about": "About Us",
+      "contact": "Contact Us",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy"
+    },
+    "followUs": "Follow Us",
+    "allRightsReserved": "All rights reserved."
+  },
+   "customerRegistration": "Customer Registration",
+  "fullName": "Full Name",
+  "gender": "Gender",
+  "selectGender": "Select Gender",
+  "male": "Male",
+  "female": "Female",
+  "other": "Other",
+  "dateOfBirth": "Date of Birth",
+  "email": "Email",
+  "username": "Username",
+  "password": "Password",
+  "mobileNo": "Mobile No",
+  "location": "Location",
+  "unexpectedError": "An unexpected error occurred.",
+   "needHelp": "Need Help? We’re Here!",
+  "howCanWeAssist": "How Can We Assist You?",
+  "howToBookService": "How do I book a home service?",
+  "bookServiceAnswer": "Go to the Services section, choose your required service, and click on Book Now.",
+  "rescheduleCancelBooking": "Can I reschedule or cancel a booking?",
+  "rescheduleCancelAnswer": "Yes, visit the My Bookings page and select the reschedule or cancel option.",
+  "areProvidersVerified": "Are your service providers verified?",
+  "providerVerificationAnswer": "Yes, all our professionals go through background checks and training.",
+  "serviceHours": "What are your service hours?",
+  "serviceHoursAnswer": "We provide services from 8 AM to 9 PM, 7 days a week.",
+  "contactSupport": "How do I contact customer support?",
+  "contactSupportAnswer": "You can fill out the contact form below or call our 24/7 helpline.",
+  "isPaymentSecure": "Is online payment secure?",
+  "paymentSecurityAnswer": "Yes, all transactions are encrypted and processed through secure gateways.",
+  "serviceWarranty": "Do I get a service warranty?",
+  "serviceWarrantyAnswer": "Yes, we offer a 7-day service guarantee for most of our services.",
+  "feedbackAfterService": "Can I give feedback after service?",
+  "feedbackAnswer": "Absolutely! You’ll receive a link via email/SMS to rate your experience.",
+  "name": "Name",
+  "subject": "Subject",
+  "message": "Message",
+  "submit": "Submit",
+  "failedToSendEmail": "Failed to send email"
+}

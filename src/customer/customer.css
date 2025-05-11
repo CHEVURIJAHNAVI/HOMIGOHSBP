@@ -1,0 +1,310 @@
+form {
+  margin: auto;
+  width: 350px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+  text-align: left;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='number'],
+input[type='email'],
+select,
+input[type='date'],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button[type='submit'] {
+  background: linear-gradient(45deg, #000, #333);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  transition: 0.3s;
+}
+
+button[type='submit']:hover {
+  background: linear-gradient(45deg, #333, #555);
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f0f0;
+}
+
+.profile-card {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  max-width: 350px;
+  text-align: center;
+  border: 3px solid #000;
+  border-radius: 8px;
+  padding: 15px;
+  background: white;
+}
+
+.logoutButton {
+  background: #dc3545;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.logoutButton:hover {
+  background: #b02a37;
+}
+
+.logoutButton:focus {
+  outline: none;
+}
+
+.event-container {
+  padding: 20px;
+}
+
+.event-heading {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.event-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-table th,
+.event-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.event-table thead {
+  background-color: #f2f2f2;
+}
+
+.event-table input[type="text"] {
+  width: 90%;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.book-button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+}
+.event-container {
+  padding: 20px;
+}
+
+.event-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 14px;
+  width: 150px;
+}
+
+.event-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.event-card {
+  width: 23%;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+  transform: scale(1.05);
+}
+
+.event-card-image {
+  width: 100%;
+  height: 200px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event-card-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.event-card-details {
+  padding: 15px;
+}
+
+.event-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.event-card-description {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.event-card-duration, .event-card-cost {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.book-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.book-button:hover {
+  background-color: #218838;
+}
+.event-detail-container {
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.event-detail-image img {
+  max-width: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.no-image {
+  width: 400px;
+  height: 300px;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  color: gray;
+}
+
+.event-detail-info {
+  flex: 1;
+}
+
+.event-detail-info h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.event-detail-info .description {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.book-button,
+.save-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.book-button {
+  background-color: #ff9900;
+  color: white;
+}
+
+.save-button {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.success-toast {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  background-color: #2ecc71;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  z-index: 999;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}

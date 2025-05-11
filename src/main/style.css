@@ -1,0 +1,172 @@
+.home-wrapper {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.welcome-section {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #fff;
+}
+
+.banner-image {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  
+}
+
+.welcome-section h1 {
+  margin: 1rem 0 0.5rem;
+  color: #2c3e50;
+}
+
+.welcome-section p {
+  font-size: 1.1rem;
+  color: #7f8c8d;
+}
+
+.home-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  margin-bottom: 1rem;
+  color: #17c3b2;
+}
+
+.card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.features-section,
+.reviews-section {
+  padding: 3rem 1rem;
+  text-align: center;
+  background-color: #ecf0f1;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.feature-card {
+  background-color: #ffffff;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  font-size: 1.1rem;
+  color: #2c3e50;
+}
+
+.reviews blockquote {
+  font-style: italic;
+  color: #555;
+  margin: 1rem auto;
+  max-width: 600px;
+}
+
+.footer {
+  background-color: #00004d; /* Royal Blue */
+  color: #ffffff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.footer-links h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #ffffff;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin: 0.3rem 0;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #ffc300; /* golden yellow hover */
+}
+
+.social-icons a {
+  display: block;
+  margin: 0.3rem 0;
+}
+
+/* Ensure your CSS is like this to handle dropdown visibility */
+/* Dropdown Menu Styling */
+.nav-links .dropdown-menu {
+  display: none; /* Hidden by default */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 100;
+  color: black; /* Ensure the text color is black */
+}
+
+.nav-links .dropdown-menu li {
+  padding: 8px;
+  cursor: pointer;
+  color: black; /* Ensure the text color inside each list item is black */
+}
+
+.nav-links .dropdown-menu li:hover {
+  background-color: #f0f0f0; /* Optional: add a hover effect */
+}
+
+.nav-links .dropdown:hover .dropdown-menu {
+  display: block; /* Show dropdown on hover */
+}
