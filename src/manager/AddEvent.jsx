@@ -101,7 +101,7 @@ export default function AddEvent() {
           <label>Event Image</label>
           <input type="file" onChange={handleImageChange} required />
         </div>
-        <button type="submit">Add Event</button>
+        <button type="submit">Add Service</button>
       </form>
     </div>
   );

@@ -39,54 +39,55 @@ export default function ViewEventsByManager() {
   };
 
   return (
-    <div>
+    <div style={{ padding: '20px' }}>
       <h3 style={{ textAlign: "center", textDecoration: "underline" }}>My Services</h3>
       {error && <p style={{ color: 'red', textAlign: 'center' }}>{error}</p>}
       {events.length === 0 ? (
         <p style={{ textAlign: 'center' }}>No Services added yet.</p>
       ) : (
-        <table style={{ margin: '0 auto', width: '95%', textAlign: 'left', borderCollapse: 'collapse' }} border="1">
-          <thead>
-            <tr>
-              <th>Service ID</th>
-              <th>Image</th>
-              <th>Title</th>
-              <th>Category</th>
-              <th>Description</th>
-              <th>Duration</th>
-              <th>Cost</th>
-              <th>Action</th>
-            </tr>
-          </thead>
-          <tbody>
-            {events.map((event) => (
-              <tr key={event.id}>
-                <td>{event.id}</td>
-                <td>
-                  {event.base64Image ? (
-                    <img
-                      src={`data:image/jpeg;base64,${event.base64Image}`}
-                      alt="Event"
-                      style={{ width: '100px', height: 'auto', borderRadius: '8px' }}
-                    />
-                  ) : (
-                    <span>No Image</span>
-                  )}
-                </td>
-                <td>{event.title}</td>
-                <td>{event.category}</td>
-                <td>{event.description}</td>
-                <td>{event.capacity} hrs</td>
-                <td>₹{event.cost}</td>
-                <td>
-                  <button onClick={() => handleDelete(event.id)} style={{ color: 'white', backgroundColor: 'red', border: 'none', borderRadius: '4px', padding: '5px 10px' }}>
-                    Delete
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+        <div style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(4, 1fr)', // Exactly 4 columns
+          gap: '20px',
+          padding: '20px'
+        }}>
+          {events.map((event) => (
+            <div key={event.id} style={{
+              border: '1px solid #ccc',
+              borderRadius: '10px',
+              padding: '16px',
+              boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'space-between'
+            }}>
+              {event.base64Image ? (
+                <img
+                  src={`data:image/jpeg;base64,${event.base64Image}`}
+                  alt="Event"
+                  style={{ width: '100%', height: '150px', objectFit: 'cover', borderRadius: '8px' }}
+                />
+              ) : (
+                <div style={{
+                  width: '100%',
+                  height: '150px',
+                  backgroundColor: '#eee',
+                  borderRadius: '8px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  color: '#666'
+                }}>No Image</div>
+              )}
+              <h4 style={{ margin: '10px 0 5px 0' }}>{event.title}</h4>
+              <p><strong>Category:</strong> {event.category}</p>
+              <p><strong>Description:</strong> {event.description}</p>
+              <p><strong>Duration:</strong> {event.capacity} hrs</p>
+              <p><strong>Cost:</strong> ₹{event.cost}</p>
+              
+            </div>
+          ))}
+        </div>
       )}
     </div>
   );

@@ -28,7 +28,6 @@ export default function ManagerNavBar()
           <li><Link to="/managerprofile">Service Provider Profile</Link></li>
           <li><Link to="/addevent">Add New Service</Link></li>
           <li><Link to="/vieweventsbymanager">View Services</Link></li>
-          <li><Link to="/viewbookings">View Bookings</Link></li>
           <li><Link to="/managerlogin" onClick={handleLogout}>Logout</Link></li>
         </ul>
       </nav>
@@ -38,7 +37,6 @@ export default function ManagerNavBar()
         <Route path="/managerprofile" element={<ManagerProfile/>} exact />
         <Route path="/addevent" element={<AddEvent/>} exact />
         <Route path="/vieweventsbymanager" element={<ViewEventsByManager/>} exact />
-        <Route path="/viewbookings" element={<ViewBookings/>} exact />
         <Route path="/managerlogin" element={<ManagerLogin/>} exact />
       </Routes>
     </div>
